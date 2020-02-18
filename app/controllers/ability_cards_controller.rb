@@ -1,0 +1,2 @@
+class AbilityCardsController < ApplicationController
+end

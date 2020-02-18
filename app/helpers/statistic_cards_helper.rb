@@ -1,0 +1,2 @@
+module StatisticCardsHelper
+end

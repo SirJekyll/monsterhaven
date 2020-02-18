@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :ability_cards
+  resources :attack_modifier_cards
+  resources :monsters
+  resources :scenarios
+  resources :statistic_cards
 end
