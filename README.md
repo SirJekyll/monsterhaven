@@ -4,7 +4,6 @@
 `ruby '2.6.5'`
 
 ## TODO
-* Bootstrap: https://getbootstrap.com/
 * Everything.
 
 ## Thoughts on Database Structure

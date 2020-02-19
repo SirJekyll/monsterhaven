@@ -7,5 +7,5 @@ class StatisticCard < ApplicationRecord
   # scenario_level:integer, null: false
 
   belongs_to :monster
-
+  has_many :special_traits
 end
