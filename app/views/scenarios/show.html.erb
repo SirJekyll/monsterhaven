@@ -45,8 +45,8 @@
     </a>
   <% end %>
 </div>
-<div class="container fixed-bottom py-2">
-  <!-- <div class="row mx-n2">
+<div class="container fixed-bottom py-2 bg-secondary">
+  <div class="row mx-n2">
     <div class="col px-2">
       <%= button_to [:bless, @scenario], class: "btn btn-info btn-block" do %>
         Bless
@@ -57,7 +57,7 @@
         Curse
       <% end %>
     </div>
-  </div> -->
+  </div>
   <%= button_to [:new_round, @scenario], class: "btn btn-primary btn-block mt-2", data: { toggle: 'modal', target: '#spinner-modal' } do %>
     New Round
   <% end %>

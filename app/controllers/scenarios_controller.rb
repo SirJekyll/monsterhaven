@@ -19,31 +19,19 @@ class ScenariosController < ApplicationController
 
   def bless
     @scenario.bless
+    flash[:notice] = 'BLESS added to modifier deck'
+    redirect_back(fallback_location: scenario_path)
   end
 
   def curse
     @scenario.curse
+    flash[:notice] = 'CURSE added to modifier deck'
+    redirect_back(fallback_location: scenario_path)
   end
 
   def new_round
     @scenario.new_round
     redirect_to scenario_path
-  end
-
-  def attack
-    @scenario = Scenario.find(params[:scenario_id])
-    @monster = @scenario.monsters.find(params[:monster_id])
-    @ability = @monster.active_abilty
-    modifier_card = @scenario.draw
-    case modifier_card.operation
-    when :add
-      @attack = normal_stats.attack + modifier_card.value
-    when :x2
-      @attack = normal_stats.attack * 2
-    when :null
-      @attack = nil
-    end
-    render 'scenarios/attack'
   end
 
   def find_scenario
