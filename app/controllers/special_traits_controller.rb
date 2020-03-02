@@ -1,2 +1,0 @@
-class SpecialTraitsController < ApplicationController
-end

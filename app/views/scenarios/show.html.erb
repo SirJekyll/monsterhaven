@@ -1,0 +1,64 @@
+<%= render 'scenarios/edit' %>
+<%= render 'layouts/spinner' %>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-dark">
+    <li class="breadcrumb-item"><a href="/">Scenarios</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><%= @scenario.name %></li>
+  </ol>
+</nav>
+<div class="card my-3 bg-dark text-light">
+  <div class="card-body">
+    <div class="card-title">
+      <h1>
+        <%= @scenario.reference_number ? "##{@scenario.reference_number} " : "" %>
+        <%= @scenario.name %>
+      </h1>
+    </div>
+    <p class="card-subtitle text-muted lead">
+      Scenario Level: <%= @scenario.level %>
+    </p>
+    <a class="card-link" href="#" data-toggle="modal" data-target="#edit-scenario-modal">Edit</a>
+  </div>
+</div>
+<div class="list-group" style="margin-bottom: 6.5rem;">
+  <% @monsters.each do |monster| %>
+    <a href="<%= scenario_monster_path(@scenario, monster) %>" class="list-group-item list-group-item-action bg-dark text-light">
+      <div class="row no-gutters">
+        <div class="col-3 align-self-center display-4">
+          <%= monster.active_ability.initiative %>
+        </div>
+        <div class="col">
+          <h4>
+            <%= monster.name %>
+          </h4>
+          <table class="table text-light table-borderless">
+            <tbody>
+              <tr>
+                <td class="text-white"><%= monster.normal_stats.special_traits.join ',' %></td>
+                <td class="text-warning"><%= monster.elite_stats.special_traits.join ',' %></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </a>
+  <% end %>
+</div>
+<div class="container fixed-bottom py-2">
+  <!-- <div class="row mx-n2">
+    <div class="col px-2">
+      <%= button_to [:bless, @scenario], class: "btn btn-info btn-block" do %>
+        Bless
+      <% end %>
+    </div>
+    <div class="col px-2">
+      <%= button_to [:curse, @scenario], class: "btn btn-info btn-block" do %>
+        Curse
+      <% end %>
+    </div>
+  </div> -->
+  <%= button_to [:new_round, @scenario], class: "btn btn-primary btn-block mt-2", data: { toggle: 'modal', target: '#spinner-modal' } do %>
+    New Round
+  <% end %>
+</div>

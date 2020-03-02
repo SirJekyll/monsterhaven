@@ -1,2 +1,0 @@
-module AbilityCardsHelper
-end

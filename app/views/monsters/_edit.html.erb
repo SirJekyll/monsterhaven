@@ -1,0 +1,27 @@
+<div class="modal fade" id="edit-monster-modal" tabindex="-1" role="dialog" aria-labelledby="editMonsterModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">
+          <%= @monster.name %>
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <%= form_for [@scenario, @monster] do %>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="inputLevel" class="col-form-label">Monster Level</label>
+            <div class="">
+              <input type="number" min="0" max="7" class="form-control" name="level" id="inputLevel" value="<%= @monster.level %>" required></input>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary">Update</button>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

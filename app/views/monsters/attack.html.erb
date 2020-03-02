@@ -1,0 +1,66 @@
+<%= render 'layouts/spinner' %>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-dark">
+    <li class="breadcrumb-item"><a href="/">Scenarios</a></li>
+    <li class="breadcrumb-item"><a href="<%= scenario_path(@scenario) %>"><%= @scenario.name %></a></li>
+    <li class="breadcrumb-item"><a href="<%= scenario_monster_path(@scenario, @monster) %>"><%= @monster.name %></a></li>
+  </ol>
+</nav>
+<div class="card my-3 bg-dark text-light">
+  <div class="card-body">
+    <div class="card-title">
+      <h1>
+        <%= @monster.name %>
+      </h1>
+    </div>
+    <p class="card-subtitle text-muted lead">
+      Level: <%= @monster.level %>
+    </p>
+    <p class="card-subtitle text-muted lead">
+      Initiative: <%= @monster.active_ability.initiative %>
+    </p>
+    <div class="card-text m-2">
+      <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th class="text-white" scope="col">Normal</th>
+            <th class="text-warning" scope="col">Elite</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Range</th>
+            <td class="text-white"><%= @monster.normal_stats.range %></td>
+            <td class="text-warning"><%= @monster.elite_stats.range %></td>
+          </tr>
+          <tr>
+            <th scope="row">Special</th>
+            <td class="text-white"><%= @monster.normal_stats.special_traits.join ',' %></td>
+            <td class="text-warning"><%= @monster.elite_stats.special_traits.join ',' %></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<div style="margin-bottom: 4rem;">
+  <% @attack.each do |ability| %>
+  <div class="list-group-item bg-dark">
+    <table class="table table-borderless">
+      <tbody>
+        <tr>
+          <td class="text-white"><%= ability[:normal] %></td>
+          <td class="text-warning"><%= ability[:elite] %></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <% end %>
+</div>
+<div class="container fixed-bottom py-2 bg-secondary">
+  <%= button_to [@scenario, @monster, :attack], class: "btn btn-primary btn-block", data: { toggle: 'modal', target: '#spinner-modal' } do %>
+    Attack
+  <% end %>
+</div>

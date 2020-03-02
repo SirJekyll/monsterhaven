@@ -1,6 +1,6 @@
-class CreateAttackModifierCards < ActiveRecord::Migration[6.0]
+class CreateModifierCards < ActiveRecord::Migration[6.0]
   def change
-    create_table :attack_modifier_cards do |t|
+    create_table :modifier_cards do |t|
       t.integer :operation, null: false
       t.integer :value
       t.boolean :shuffle

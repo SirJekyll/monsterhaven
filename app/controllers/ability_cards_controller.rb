@@ -1,2 +1,0 @@
-class AbilityCardsController < ApplicationController
-end

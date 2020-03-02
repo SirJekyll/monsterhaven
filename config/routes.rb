@@ -1,10 +1,16 @@
 Rails.application.routes.draw do
-  root 'home#index'
+  root 'scenarios#index'
 
-  resources :special_traits
-  resources :ability_cards
-  resources :attack_modifier_cards
-  resources :monsters
-  resources :scenarios
-  resources :statistic_cards
+  resources :scenarios, only: [:show, :index, :update] do
+    member do
+      post 'new_round'
+      post 'bless'
+      post 'curse'
+    end
+    resources :monsters, only: [:show, :update] do
+      post 'attack'
+      get 'attack', to: 'monsters#attack'
+    end
+
+  end
 end

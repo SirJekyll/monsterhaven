@@ -1,0 +1,7307 @@
+{ monster: city_guard, level: 0, elite: false, hit_points: 4, movement: 1, attack: 2, range: 3, special_traits: [] },
+{ monster: city_guard, level: 0, elite: true, hit_points: 6, movement: 1, attack: 3, range: 4, special_traits: [] },
+
+    "City Guard": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 5,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 6,
+            movement: 2,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 5,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 6,
+            movement: 2,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 7,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 9,
+            movement: 2,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 8,
+            movement: 2,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 9,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 1",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 9,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 10,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 2",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 10,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 12,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 2",
+              "Shield 3"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 11,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 13,
+            movement: 3,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 3",
+              "Shield 3"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 13,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 14,
+            movement: 3,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Retaliate 3",
+              "Shield 3"
+            ]
+          }
+        }
+      ]
+    },
+    Cultist: {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 4,
+            movement: 2,
+            attack: 1,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 7,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 5,
+            movement: 2,
+            attack: 1,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 9,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 7,
+            movement: 2,
+            attack: 1,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 12,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 9,
+            movement: 3,
+            attack: 1,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 13,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Curse"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 10,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 15,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Curse"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 11,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Curse"
+            ]
+          },
+          elite: {
+            hit_points: 18,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Curse"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 14,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Curse"
+            ]
+          },
+          elite: {
+            hit_points: 22,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Curse"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 15,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Curse"
+            ]
+          },
+          elite: {
+            hit_points: 25,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Curse"
+            ]
+          }
+        }
+      ]
+    },
+    "Deep Terror": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 3,
+            movement: 0,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 5,
+            movement: 0,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 4,
+            movement: 0,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Retaliate 1"
+            ]
+          },
+          elite: {
+            hit_points: 6,
+            movement: 0,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 1"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 4,
+            movement: 0,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 1"
+            ]
+          },
+          elite: {
+            hit_points: 7,
+            movement: 0,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 1"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 5,
+            movement: 0,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          },
+          elite: {
+            hit_points: 8,
+            movement: 0,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 6,
+            movement: 0,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          },
+          elite: {
+            hit_points: 9,
+            movement: 0,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 7,
+            movement: 0,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          },
+          elite: {
+            hit_points: 11,
+            movement: 0,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 8,
+            movement: 0,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          },
+          elite: {
+            hit_points: 13,
+            movement: 0,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 9,
+            movement: 0,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 4"
+            ]
+          },
+          elite: {
+            hit_points: 15,
+            movement: 0,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Retaliate 4"
+            ]
+          }
+        }
+      ]
+    },
+    "Earth Demon": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 7,
+            movement: 1,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 10,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 9,
+            movement: 1,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 13,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 12,
+            movement: 1,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 18,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 13,
+            movement: 2,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 20,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Immobilize"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 15,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 21,
+            movement: 3,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Immobilize"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 17,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Immobilize"
+            ]
+          },
+          elite: {
+            hit_points: 25,
+            movement: 3,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Immobilize"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 20,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Immobilize"
+            ]
+          },
+          elite: {
+            hit_points: 27,
+            movement: 3,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Immobilize"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 22,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Immobilize"
+            ]
+          },
+          elite: {
+            hit_points: 32,
+            movement: 3,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Immobilize"
+            ]
+          }
+        }
+      ]
+    },
+    "Flame Demon": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 2,
+            movement: 3,
+            attack: 2,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 3,
+            movement: 3,
+            attack: 2,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 3"
+            ]
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 2,
+            movement: 3,
+            attack: 2,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 3,
+            movement: 3,
+            attack: 2,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Retaliate 2, Range 2",
+              "Shield 4"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 3,
+            movement: 3,
+            attack: 3,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 4,
+            movement: 3,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Retaliate 3, Range 2",
+              "Shield 4"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 3,
+            movement: 3,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Retaliate 2, Range 2",
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 5,
+            movement: 3,
+            attack: 3,
+            range: 5,
+            special_traits: [
+              "Flying",
+              "Retaliate 3, Range 3",
+              "Shield 4"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 3,
+            movement: 4,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Retaliate 3, Range 2",
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 5,
+            movement: 4,
+            attack: 4,
+            range: 5,
+            special_traits: [
+              "Flying",
+              "Retaliate 4, Range 3",
+              "Shield 4"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 4,
+            movement: 4,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Retaliate 3, Range 2",
+              "Shield 4"
+            ]
+          },
+          elite: {
+            hit_points: 6,
+            movement: 4,
+            attack: 4,
+            range: 5,
+            special_traits: [
+              "Flying",
+              "Retaliate 4, Range 3",
+              "Shield 5"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 4,
+            movement: 4,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Retaliate 4, Range 2",
+              "Shield 4"
+            ]
+          },
+          elite: {
+            hit_points: 7,
+            movement: 4,
+            attack: 5,
+            range: 5,
+            special_traits: [
+              "Flying",
+              "Retaliate 5, Range 3",
+              "Shield 5"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 5,
+            movement: 4,
+            attack: 4,
+            range: 5,
+            special_traits: [
+              "Flying",
+              "Retaliate 4, Range 3",
+              "Shield 4"
+            ]
+          },
+          elite: {
+            hit_points: 8,
+            movement: 4,
+            attack: 5,
+            range: 6,
+            special_traits: [
+              "Flying",
+              "Retaliate 5, Range 4",
+              "Shield 5"
+            ]
+          }
+        }
+      ]
+    },
+    "Frost Demon": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 5,
+            movement: 2,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 10,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 6,
+            movement: 2,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 1"
+            ]
+          },
+          elite: {
+            hit_points: 10,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 7,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          },
+          elite: {
+            hit_points: 12,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 8,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          },
+          elite: {
+            hit_points: 14,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 10,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          },
+          elite: {
+            hit_points: 18,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 11,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          },
+          elite: {
+            hit_points: 20,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 12,
+            movement: 3,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          },
+          elite: {
+            hit_points: 22,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 4"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 14,
+            movement: 3,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          },
+          elite: {
+            hit_points: 25,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 4"
+            ]
+          }
+        }
+      ]
+    },
+    "Forest Imp": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 1,
+            movement: 3,
+            attack: 1,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 4,
+            movement: 3,
+            attack: 1,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 2,
+            movement: 3,
+            attack: 1,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 5,
+            movement: 3,
+            attack: 2,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 2,
+            movement: 3,
+            attack: 2,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 6,
+            movement: 3,
+            attack: 2,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Curse",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 3,
+            movement: 4,
+            attack: 2,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 7,
+            movement: 4,
+            attack: 2,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Curse",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 3,
+            movement: 4,
+            attack: 2,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 7,
+            movement: 4,
+            attack: 2,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Curse",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 4,
+            movement: 4,
+            attack: 2,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Curse",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 8,
+            movement: 4,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Curse",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 4,
+            movement: 4,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Curse",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 9,
+            movement: 4,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Curse",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 6,
+            movement: 4,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Curse",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 11,
+            movement: 4,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Curse",
+              "Shield 2"
+            ]
+          }
+        }
+      ]
+    },
+    "Giant Viper": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 2,
+            movement: 2,
+            attack: 1,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          },
+          elite: {
+            hit_points: 3,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 3,
+            movement: 2,
+            attack: 1,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          },
+          elite: {
+            hit_points: 5,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 4,
+            movement: 3,
+            attack: 1,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          },
+          elite: {
+            hit_points: 7,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 4,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          },
+          elite: {
+            hit_points: 8,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 6,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          },
+          elite: {
+            hit_points: 11,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 7,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          },
+          elite: {
+            hit_points: 13,
+            movement: 4,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 8,
+            movement: 4,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          },
+          elite: {
+            hit_points: 14,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 10,
+            movement: 4,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          },
+          elite: {
+            hit_points: 17,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          }
+        }
+      ]
+    },
+    "Harrower Infester": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 6,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 12,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 7,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Retaliate 1"
+            ]
+          },
+          elite: {
+            hit_points: 12,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 8,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          },
+          elite: {
+            hit_points: 14,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 10,
+            movement: 2,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          },
+          elite: {
+            hit_points: 17,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 12,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          },
+          elite: {
+            hit_points: 19,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 12,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          },
+          elite: {
+            hit_points: 21,
+            movement: 3,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 15,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          },
+          elite: {
+            hit_points: 22,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 4"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 17,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 4"
+            ]
+          },
+          elite: {
+            hit_points: 26,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 4"
+            ]
+          }
+        }
+      ]
+    },
+    Hound: {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 4,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 6,
+            movement: 5,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 4,
+            movement: 4,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Retaliate 1"
+            ]
+          },
+          elite: {
+            hit_points: 6,
+            movement: 5,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 6,
+            movement: 4,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Retaliate 1"
+            ]
+          },
+          elite: {
+            hit_points: 7,
+            movement: 5,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 8,
+            movement: 4,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Retaliate 1"
+            ]
+          },
+          elite: {
+            hit_points: 8,
+            movement: 5,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 8,
+            movement: 4,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 1"
+            ]
+          },
+          elite: {
+            hit_points: 11,
+            movement: 5,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 9,
+            movement: 4,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          },
+          elite: {
+            hit_points: 12,
+            movement: 5,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 11,
+            movement: 5,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          },
+          elite: {
+            hit_points: 15,
+            movement: 6,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 15,
+            movement: 5,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          },
+          elite: {
+            hit_points: 15,
+            movement: 6,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 4"
+            ]
+          }
+        }
+      ]
+    },
+    "Inox Archer": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 5,
+            movement: 2,
+            attack: 2,
+            range: 2,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 7,
+            movement: 2,
+            attack: 3,
+            range: 3,
+            special_traits: []
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 6,
+            movement: 2,
+            attack: 2,
+            range: 3,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 8,
+            movement: 2,
+            attack: 3,
+            range: 4,
+            special_traits: []
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 8,
+            movement: 2,
+            attack: 2,
+            range: 3,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 11,
+            movement: 2,
+            attack: 3,
+            range: 4,
+            special_traits: []
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 9,
+            movement: 2,
+            attack: 3,
+            range: 3,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 13,
+            movement: 2,
+            attack: 4,
+            range: 4,
+            special_traits: []
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 10,
+            movement: 3,
+            attack: 3,
+            range: 3,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 14,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Wound"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 12,
+            movement: 3,
+            attack: 3,
+            range: 4,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 17,
+            movement: 3,
+            attack: 4,
+            range: 5,
+            special_traits: [
+              "Wound"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 12,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Wound"
+            ]
+          },
+          elite: {
+            hit_points: 19,
+            movement: 3,
+            attack: 5,
+            range: 5,
+            special_traits: [
+              "Wound"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 15,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Wound"
+            ]
+          },
+          elite: {
+            hit_points: 23,
+            movement: 3,
+            attack: 5,
+            range: 5,
+            special_traits: [
+              "Wound"
+            ]
+          }
+        }
+      ]
+    },
+    "Inox Guard": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 5,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 9,
+            movement: 1,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 1"
+            ]
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 8,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 10,
+            movement: 2,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 9,
+            movement: 2,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 12,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 11,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 15,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 12,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Retaliate 1"
+            ]
+          },
+          elite: {
+            hit_points: 17,
+            movement: 2,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 3"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 13,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 1"
+            ]
+          },
+          elite: {
+            hit_points: 19,
+            movement: 2,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 4"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 16,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 1"
+            ]
+          },
+          elite: {
+            hit_points: 21,
+            movement: 3,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Retaliate 4"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 19,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Retaliate 2"
+            ]
+          },
+          elite: {
+            hit_points: 23,
+            movement: 3,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Retaliate 4"
+            ]
+          }
+        }
+      ]
+    },
+    "Inox Shaman": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 4,
+            movement: 1,
+            attack: 2,
+            range: 3,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 6,
+            movement: 2,
+            attack: 3,
+            range: 3,
+            special_traits: []
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 6,
+            movement: 1,
+            attack: 2,
+            range: 3,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 9,
+            movement: 2,
+            attack: 3,
+            range: 3,
+            special_traits: []
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 7,
+            movement: 2,
+            attack: 2,
+            range: 3,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 11,
+            movement: 3,
+            attack: 3,
+            range: 3,
+            special_traits: []
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 9,
+            movement: 2,
+            attack: 2,
+            range: 4,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 14,
+            movement: 3,
+            attack: 3,
+            range: 4,
+            special_traits: []
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 10,
+            movement: 2,
+            attack: 3,
+            range: 4,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 16,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: []
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 13,
+            movement: 2,
+            attack: 3,
+            range: 4,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 20,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: []
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 15,
+            movement: 3,
+            attack: 3,
+            range: 4,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 24,
+            movement: 4,
+            attack: 4,
+            range: 4,
+            special_traits: []
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 16,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 27,
+            movement: 4,
+            attack: 5,
+            range: 4,
+            special_traits: []
+          }
+        }
+      ]
+    },
+    "Living Bones": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 5,
+            movement: 2,
+            attack: 1,
+            range: 0,
+            special_traits: [
+              "Target 2"
+            ]
+          },
+          elite: {
+            hit_points: 6,
+            movement: 4,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Target 2"
+            ]
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 5,
+            movement: 3,
+            attack: 1,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 6,
+            movement: 4,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Target 3",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 5,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 7,
+            movement: 4,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Target 3",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 7,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 10,
+            movement: 4,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Target 3",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 7,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 11,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Target 3",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 9,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 11,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Target 3",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 10,
+            movement: 4,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 11,
+            movement: 6,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Target 3",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 13,
+            movement: 4,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 14,
+            movement: 6,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Target 3",
+              "Shield 2"
+            ]
+          }
+        }
+      ]
+    },
+    "Living Corpse": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 5,
+            movement: 1,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 10,
+            movement: 1,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 7,
+            movement: 1,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 10,
+            movement: 1,
+            attack: 4,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 9,
+            movement: 1,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 13,
+            movement: 1,
+            attack: 4,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 10,
+            movement: 1,
+            attack: 4,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 13,
+            movement: 2,
+            attack: 5,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 11,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 15,
+            movement: 2,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 13,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 17,
+            movement: 2,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 14,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          },
+          elite: {
+            hit_points: 21,
+            movement: 2,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 15,
+            movement: 2,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          },
+          elite: {
+            hit_points: 25,
+            movement: 2,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          }
+        }
+      ]
+    },
+    "Living Spirit": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 2,
+            movement: 2,
+            attack: 2,
+            range: 2,
+            special_traits: [
+              "Flying",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 3,
+            movement: 3,
+            attack: 3,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 2,
+            movement: 2,
+            attack: 2,
+            range: 2,
+            special_traits: [
+              "Flying",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 3,
+            movement: 3,
+            attack: 3,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 3"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 2,
+            movement: 3,
+            attack: 2,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 3,
+            movement: 4,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 3"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 3,
+            movement: 3,
+            attack: 3,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 4,
+            movement: 4,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 3"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 3,
+            movement: 3,
+            attack: 3,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 4,
+            movement: 4,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 4"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 4,
+            movement: 3,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 6,
+            movement: 4,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 4"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 4,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 7,
+            movement: 4,
+            attack: 5,
+            range: 5,
+            special_traits: [
+              "Flying",
+              "Shield 4"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 6,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 9,
+            movement: 4,
+            attack: 5,
+            range: 5,
+            special_traits: [
+              "Flying",
+              "Shield 4"
+            ]
+          }
+        }
+      ]
+    },
+    Lurker: {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 5,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Target 2"
+            ]
+          },
+          elite: {
+            hit_points: 7,
+            movement: 2,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 7,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Pierce 1"
+            ]
+          },
+          elite: {
+            hit_points: 9,
+            movement: 2,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Pierce 1",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 9,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Pierce 1"
+            ]
+          },
+          elite: {
+            hit_points: 12,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Pierce 2",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 10,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Pierce 2"
+            ]
+          },
+          elite: {
+            hit_points: 14,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Pierce 2",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 10,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Pierce 2",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 14,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Pierce 3",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 11,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Pierce 2",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 15,
+            movement: 3,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Pierce 3",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 12,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Pierce 3",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 16,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Pierce 4",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 14,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Pierce 3",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 18,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Target 2",
+              "Pierce 4",
+              "Shield 2"
+            ]
+          }
+        }
+      ]
+    },
+    Ooze: {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 4,
+            movement: 1,
+            attack: 2,
+            range: 2,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 8,
+            movement: 1,
+            attack: 2,
+            range: 3,
+            special_traits: []
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 5,
+            movement: 1,
+            attack: 2,
+            range: 2,
+            special_traits: [
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 9,
+            movement: 1,
+            attack: 2,
+            range: 3,
+            special_traits: [
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 7,
+            movement: 1,
+            attack: 2,
+            range: 3,
+            special_traits: [
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 11,
+            movement: 1,
+            attack: 3,
+            range: 3,
+            special_traits: [
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 8,
+            movement: 1,
+            attack: 3,
+            range: 3,
+            special_traits: [
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 11,
+            movement: 2,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Poison",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 9,
+            movement: 2,
+            attack: 3,
+            range: 3,
+            special_traits: [
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 13,
+            movement: 2,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Poison",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 10,
+            movement: 2,
+            attack: 3,
+            range: 3,
+            special_traits: [
+              "Poison",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 15,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Poison",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 12,
+            movement: 2,
+            attack: 4,
+            range: 3,
+            special_traits: [
+              "Poison",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 16,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Poison",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 14,
+            movement: 2,
+            attack: 4,
+            range: 3,
+            special_traits: [
+              "Poison",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 18,
+            movement: 3,
+            attack: 5,
+            range: 4,
+            special_traits: [
+              "Poison",
+              "Shield 2"
+            ]
+          }
+        }
+      ]
+    },
+    "Night Demon": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 3,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          },
+          elite: {
+            hit_points: 5,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 5,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          },
+          elite: {
+            hit_points: 8,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 6,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          },
+          elite: {
+            hit_points: 11,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 7,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          },
+          elite: {
+            hit_points: 13,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 8,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          },
+          elite: {
+            hit_points: 15,
+            movement: 5,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 11,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          },
+          elite: {
+            hit_points: 17,
+            movement: 5,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 14,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          },
+          elite: {
+            hit_points: 21,
+            movement: 5,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 15,
+            movement: 4,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          },
+          elite: {
+            hit_points: 21,
+            movement: 5,
+            attack: 8,
+            range: 0,
+            special_traits: [
+              "Attackers gain Disadvantage"
+            ]
+          }
+        }
+      ]
+    },
+    "Rending Drake": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 5,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 7,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 6,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Wound"
+            ]
+          },
+          elite: {
+            hit_points: 7,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Wound"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 7,
+            movement: 4,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Wound"
+            ]
+          },
+          elite: {
+            hit_points: 9,
+            movement: 5,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Wound"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 7,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Wound"
+            ]
+          },
+          elite: {
+            hit_points: 10,
+            movement: 5,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Wound"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 9,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Wound"
+            ]
+          },
+          elite: {
+            hit_points: 11,
+            movement: 6,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Wound"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 10,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Wound"
+            ]
+          },
+          elite: {
+            hit_points: 14,
+            movement: 6,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Wound"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 11,
+            movement: 5,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Wound"
+            ]
+          },
+          elite: {
+            hit_points: 15,
+            movement: 6,
+            attack: 7,
+            range: 0,
+            special_traits: [
+              "Wound"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 14,
+            movement: 5,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Wound"
+            ]
+          },
+          elite: {
+            hit_points: 18,
+            movement: 6,
+            attack: 7,
+            range: 0,
+            special_traits: [
+              "Wound"
+            ]
+          }
+        }
+      ]
+    },
+    "Savvas Icestorm": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 7,
+            movement: 2,
+            attack: 2,
+            range: 3,
+            special_traits: [
+              "Pierce 3"
+            ]
+          },
+          elite: {
+            hit_points: 12,
+            movement: 2,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Pierce 3"
+            ]
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 10,
+            movement: 2,
+            attack: 2,
+            range: 4,
+            special_traits: [
+              "Pierce 3"
+            ]
+          },
+          elite: {
+            hit_points: 12,
+            movement: 2,
+            attack: 3,
+            range: 5,
+            special_traits: [
+              "Pierce 3",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 12,
+            movement: 3,
+            attack: 2,
+            range: 4,
+            special_traits: [
+              "Pierce 3"
+            ]
+          },
+          elite: {
+            hit_points: 15,
+            movement: 3,
+            attack: 3,
+            range: 5,
+            special_traits: [
+              "Pierce 3",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 12,
+            movement: 3,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Pierce 3",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 18,
+            movement: 3,
+            attack: 4,
+            range: 6,
+            special_traits: [
+              "Pierce 3",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 14,
+            movement: 3,
+            attack: 3,
+            range: 5,
+            special_traits: [
+              "Pierce 3",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 19,
+            movement: 4,
+            attack: 4,
+            range: 6,
+            special_traits: [
+              "Pierce 3",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 16,
+            movement: 3,
+            attack: 4,
+            range: 5,
+            special_traits: [
+              "Pierce 3",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 21,
+            movement: 4,
+            attack: 5,
+            range: 6,
+            special_traits: [
+              "Pierce 3",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 16,
+            movement: 3,
+            attack: 4,
+            range: 5,
+            special_traits: [
+              "Pierce 3",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 23,
+            movement: 4,
+            attack: 6,
+            range: 6,
+            special_traits: [
+              "Pierce 3",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 17,
+            movement: 4,
+            attack: 4,
+            range: 6,
+            special_traits: [
+              "Pierce 3",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 24,
+            movement: 4,
+            attack: 6,
+            range: 6,
+            special_traits: [
+              "Pierce 4",
+              "Shield 3"
+            ]
+          }
+        }
+      ]
+    },
+    "Savvas Lavaflow": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 8,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 13,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 9,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          },
+          elite: {
+            hit_points: 15,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Wound"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 11,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          },
+          elite: {
+            hit_points: 18,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Poison",
+              "Wound"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 14,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          },
+          elite: {
+            hit_points: 21,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Poison",
+              "Wound"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 16,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Poison"
+            ]
+          },
+          elite: {
+            hit_points: 24,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Poison",
+              "Wound"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 18,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Poison",
+              "Wound"
+            ]
+          },
+          elite: {
+            hit_points: 27,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Poison",
+              "Wound"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 20,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Poison",
+              "Wound"
+            ]
+          },
+          elite: {
+            hit_points: 30,
+            movement: 4,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Poison",
+              "Wound"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 24,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Poison",
+              "Wound"
+            ]
+          },
+          elite: {
+            hit_points: 35,
+            movement: 4,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Poison",
+              "Wound"
+            ]
+          }
+        }
+      ]
+    },
+    "Spitting Drake": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 5,
+            movement: 3,
+            attack: 3,
+            range: 3,
+            special_traits: [
+              "Flying"
+            ]
+          },
+          elite: {
+            hit_points: 8,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying"
+            ]
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 6,
+            movement: 3,
+            attack: 3,
+            range: 3,
+            special_traits: [
+              "Flying"
+            ]
+          },
+          elite: {
+            hit_points: 9,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Muddle"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 8,
+            movement: 3,
+            attack: 3,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Muddle"
+            ]
+          },
+          elite: {
+            hit_points: 10,
+            movement: 3,
+            attack: 5,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Muddle"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 8,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Muddle"
+            ]
+          },
+          elite: {
+            hit_points: 12,
+            movement: 3,
+            attack: 5,
+            range: 5,
+            special_traits: [
+              "Flying",
+              "Muddle"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 9,
+            movement: 4,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Muddle"
+            ]
+          },
+          elite: {
+            hit_points: 14,
+            movement: 4,
+            attack: 5,
+            range: 5,
+            special_traits: [
+              "Flying",
+              "Muddle"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 12,
+            movement: 4,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Muddle"
+            ]
+          },
+          elite: {
+            hit_points: 16,
+            movement: 4,
+            attack: 6,
+            range: 5,
+            special_traits: [
+              "Flying",
+              "Muddle"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 13,
+            movement: 4,
+            attack: 5,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Muddle"
+            ]
+          },
+          elite: {
+            hit_points: 19,
+            movement: 4,
+            attack: 6,
+            range: 5,
+            special_traits: [
+              "Flying",
+              "Muddle"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 16,
+            movement: 4,
+            attack: 5,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Muddle"
+            ]
+          },
+          elite: {
+            hit_points: 21,
+            movement: 4,
+            attack: 7,
+            range: 5,
+            special_traits: [
+              "Flying",
+              "Muddle"
+            ]
+          }
+        }
+      ]
+    },
+    "Stone Golem": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 10,
+            movement: 1,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 10,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 10,
+            movement: 1,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 11,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 11,
+            movement: 1,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 14,
+            movement: 2,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 11,
+            movement: 1,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 15,
+            movement: 2,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Shield 3"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 12,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 17,
+            movement: 2,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Shield 3"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 13,
+            movement: 2,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 19,
+            movement: 3,
+            attack: 6,
+            range: 0,
+            special_traits: [
+              "Shield 3"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 16,
+            movement: 2,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 20,
+            movement: 3,
+            attack: 7,
+            range: 0,
+            special_traits: [
+              "Shield 3"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 16,
+            movement: 2,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 21,
+            movement: 3,
+            attack: 7,
+            range: 0,
+            special_traits: [
+              "Shield 4"
+            ]
+          }
+        }
+      ]
+    },
+    "Sun Demon": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 5,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 9,
+            movement: 2,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 7,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 12,
+            movement: 2,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 9,
+            movement: 2,
+            attack: 2,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 13,
+            movement: 2,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 10,
+            movement: 2,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 15,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 11,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 16,
+            movement: 3,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 11,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 16,
+            movement: 3,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 12,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 18,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 15,
+            movement: 3,
+            attack: 4,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 22,
+            movement: 4,
+            attack: 5,
+            range: 0,
+            special_traits: [
+              "Flying",
+              "Advantage",
+              "Shield 2"
+            ]
+          }
+        }
+      ]
+    },
+    "Vermling Scout": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 2,
+            movement: 3,
+            attack: 1,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 4,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 3,
+            movement: 3,
+            attack: 1,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 5,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 3,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 5,
+            movement: 4,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 5,
+            movement: 3,
+            attack: 2,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 7,
+            movement: 4,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 6,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 8,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 8,
+            movement: 3,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 11,
+            movement: 4,
+            attack: 4,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 9,
+            movement: 4,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 12,
+            movement: 5,
+            attack: 4,
+            range: 0,
+            special_traits: []
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 11,
+            movement: 4,
+            attack: 3,
+            range: 0,
+            special_traits: []
+          },
+          elite: {
+            hit_points: 15,
+            movement: 5,
+            attack: 4,
+            range: 0,
+            special_traits: []
+          }
+        }
+      ]
+    },
+    "Vermling Shaman": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 2,
+            movement: 2,
+            attack: 1,
+            range: 3,
+            special_traits: [
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 3,
+            movement: 3,
+            attack: 2,
+            range: 3,
+            special_traits: [
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 2,
+            movement: 2,
+            attack: 1,
+            range: 3,
+            special_traits: [
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 3,
+            movement: 3,
+            attack: 2,
+            range: 3,
+            special_traits: [
+              "Shield 3"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 3,
+            movement: 2,
+            attack: 1,
+            range: 4,
+            special_traits: [
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 4,
+            movement: 3,
+            attack: 2,
+            range: 4,
+            special_traits: [
+              "Shield 3"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 3,
+            movement: 2,
+            attack: 2,
+            range: 4,
+            special_traits: [
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 5,
+            movement: 3,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Shield 3"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 3,
+            movement: 3,
+            attack: 2,
+            range: 4,
+            special_traits: [
+              "Muddle",
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 5,
+            movement: 3,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Muddle",
+              "Shield 4"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 4,
+            movement: 3,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Muddle",
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 6,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Muddle",
+              "Shield 4"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 5,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Muddle",
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 6,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Muddle",
+              "Shield 5"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 7,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Muddle",
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 8,
+            movement: 3,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Muddle",
+              "Shield 5"
+            ]
+          }
+        }
+      ]
+    },
+    "Wind Demon": {
+      level: [
+        {
+          level: 0,
+          normal: {
+            hit_points: 3,
+            movement: 3,
+            attack: 2,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 1"
+            ]
+          },
+          elite: {
+            hit_points: 5,
+            movement: 4,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 1"
+            ]
+          }
+        },
+        {
+          level: 1,
+          normal: {
+            hit_points: 3,
+            movement: 3,
+            attack: 2,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 5,
+            movement: 4,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 2,
+          normal: {
+            hit_points: 4,
+            movement: 4,
+            attack: 2,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 7,
+            movement: 5,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 3,
+          normal: {
+            hit_points: 5,
+            movement: 4,
+            attack: 3,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 8,
+            movement: 5,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 4,
+          normal: {
+            hit_points: 7,
+            movement: 4,
+            attack: 3,
+            range: 3,
+            special_traits: [
+              "Flying",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 8,
+            movement: 5,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Disarm",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 5,
+          normal: {
+            hit_points: 9,
+            movement: 4,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 2"
+            ]
+          },
+          elite: {
+            hit_points: 11,
+            movement: 5,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Disarm",
+              "Shield 2"
+            ]
+          }
+        },
+        {
+          level: 6,
+          normal: {
+            hit_points: 10,
+            movement: 4,
+            attack: 3,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 12,
+            movement: 5,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Disarm",
+              "Shield 3"
+            ]
+          }
+        },
+        {
+          level: 7,
+          normal: {
+            hit_points: 11,
+            movement: 4,
+            attack: 4,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Shield 3"
+            ]
+          },
+          elite: {
+            hit_points: 13,
+            movement: 5,
+            attack: 5,
+            range: 4,
+            special_traits: [
+              "Flying",
+              "Disarm",
+              "Shield 3"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  bosses: {
+    "Bandit Commander": {
+      level: [
+        {
+          level: 0,
+          hit_points: "8xC",
+          movement: 3,
+          attack: 3,
+          range: 0,
+          special1: [
+            "movement to next door and reveal room"
+          ],
+          special2: [
+            "Summon Living Bones"
+          ],
+          immunities: [
+            "Stun",
+            "Immobilize",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 1,
+          hit_points: "10xC",
+          movement: 3,
+          attack: 3,
+          range: 0,
+          special1: [
+            "movement to next door and reveal room"
+          ],
+          special2: [
+            "Summon Living Bones"
+          ],
+          immunities: [
+            "Stun",
+            "Immobilize",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 2,
+          hit_points: "12xC",
+          movement: 4,
+          attack: 3,
+          range: 0,
+          special1: [
+            "movement to next door and reveal room"
+          ],
+          special2: [
+            "Summon Living Bones"
+          ],
+          immunities: [
+            "Stun",
+            "Immobilize",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 3,
+          hit_points: "13xC",
+          movement: 4,
+          attack: 4,
+          range: 0,
+          special1: [
+            "movement to next door and reveal room"
+          ],
+          special2: [
+            "Summon Living Bones"
+          ],
+          immunities: [
+            "Stun",
+            "Immobilize",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 4,
+          hit_points: "15xC",
+          movement: 4,
+          attack: 4,
+          range: 0,
+          special1: [
+            "movement to next door and reveal room"
+          ],
+          special2: [
+            "Summon Living Bones"
+          ],
+          immunities: [
+            "Stun",
+            "Immobilize",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 5,
+          hit_points: "16xC",
+          movement: 5,
+          attack: 5,
+          range: 0,
+          special1: [
+            "movement to next door and reveal room"
+          ],
+          special2: [
+            "Summon Living Bones"
+          ],
+          immunities: [
+            "Stun",
+            "Immobilize",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 6,
+          hit_points: "19xC",
+          movement: 5,
+          attack: 5,
+          range: 0,
+          special1: [
+            "movement to next door and reveal room"
+          ],
+          special2: [
+            "Summon Living Bones"
+          ],
+          immunities: [
+            "Stun",
+            "Immobilize",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 7,
+          hit_points: "23xC",
+          movement: 5,
+          attack: 5,
+          range: 0,
+          special1: [
+            "movement to next door and reveal room"
+          ],
+          special2: [
+            "Summon Living Bones"
+          ],
+          immunities: [
+            "Stun",
+            "Immobilize",
+            "Curse"
+          ],
+          notes: ""
+        }
+      ]
+    },
+    "The Betrayer": {
+      level: [
+        {
+          level: 0,
+          hit_points: "10xC",
+          movement: 3,
+          attack: 4,
+          range: 3,
+          special1: [
+            "Summon Giant Viper and Fear"
+          ],
+          special2: [
+            "Mind Control"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Stun",
+            "Disarm",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 1,
+          hit_points: "12xC",
+          movement: 3,
+          attack: 5,
+          range: 3,
+          special1: [
+            "Summon Giant Viper and Fear"
+          ],
+          special2: [
+            "Mind Control"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Stun",
+            "Disarm",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 2,
+          hit_points: "14xC",
+          movement: 3,
+          attack: 6,
+          range: 4,
+          special1: [
+            "Summon Giant Viper and Fear"
+          ],
+          special2: [
+            "Mind Control"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Stun",
+            "Disarm",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 3,
+          hit_points: "16xC",
+          movement: 4,
+          attack: 7,
+          range: 4,
+          special1: [
+            "Summon Giant Viper and Fear"
+          ],
+          special2: [
+            "Mind Control"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Stun",
+            "Disarm",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 4,
+          hit_points: "18xC",
+          movement: 4,
+          attack: 8,
+          range: 4,
+          special1: [
+            "Summon Giant Viper and Fear"
+          ],
+          special2: [
+            "Mind Control"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Stun",
+            "Disarm",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 5,
+          hit_points: "20xC",
+          movement: 5,
+          attack: 8,
+          range: 5,
+          special1: [
+            "Summon Giant Viper and Fear"
+          ],
+          special2: [
+            "Mind Control"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Stun",
+            "Disarm",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 6,
+          hit_points: "23xC",
+          movement: 5,
+          attack: 9,
+          range: 5,
+          special1: [
+            "Summon Giant Viper and Fear"
+          ],
+          special2: [
+            "Mind Control"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Stun",
+            "Disarm",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 7,
+          hit_points: "27xC",
+          movement: 5,
+          attack: 9,
+          range: 5,
+          special1: [
+            "Summon Giant Viper and Fear"
+          ],
+          special2: [
+            "Mind Control"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Stun",
+            "Disarm",
+            "Curse"
+          ],
+          notes: ""
+        }
+      ]
+    },
+    "Captain of the Guard": {
+      level: [
+        {
+          level: 0,
+          hit_points: "7xC",
+          movement: 2,
+          attack: 3,
+          range: 0,
+          special1: [
+            "Heal 2, Affect self and all allies"
+          ],
+          special2: [
+            "All allies add +1 Attack to all attacks this round",
+            "Attack +1"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 1,
+          hit_points: "9xC",
+          movement: 2,
+          attack: 3,
+          range: 0,
+          special1: [
+            "Heal 2, Affect self and all allies"
+          ],
+          special2: [
+            "All allies add +1 Attack to all attacks this round",
+            "Attack +1"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 2,
+          hit_points: "11xC",
+          movement: 2,
+          attack: 4,
+          range: 0,
+          special1: [
+            "Heal 2, Affect self and all allies"
+          ],
+          special2: [
+            "All allies add +1 Attack to all attacks this round",
+            "Attack +1"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 3,
+          hit_points: "14xC",
+          movement: 3,
+          attack: 4,
+          range: 0,
+          special1: [
+            "Heal 2, Affect self and all allies"
+          ],
+          special2: [
+            "All allies add +1 Attack to all attacks this round",
+            "Attack +1"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 4,
+          hit_points: "16xC",
+          movement: 3,
+          attack: 5,
+          range: 0,
+          special1: [
+            "Heal 2, Affect self and all allies"
+          ],
+          special2: [
+            "All allies add +1 Attack to all attacks this round",
+            "Attack +1"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 5,
+          hit_points: "20xC",
+          movement: 3,
+          attack: 5,
+          range: 0,
+          special1: [
+            "Heal 2, Affect self and all allies"
+          ],
+          special2: [
+            "All allies add +1 Attack to all attacks this round",
+            "Attack +1"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 6,
+          hit_points: "21xC",
+          movement: 4,
+          attack: 6,
+          range: 0,
+          special1: [
+            "Heal 2, Affect self and all allies"
+          ],
+          special2: [
+            "All allies add +1 Attack to all attacks this round",
+            "Attack +1"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 7,
+          hit_points: "25xC",
+          movement: 4,
+          attack: 6,
+          range: 0,
+          special1: [
+            "Heal 2, Affect self and all allies"
+          ],
+          special2: [
+            "All allies add +1 Attack to all attacks this round",
+            "Attack +1"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        }
+      ]
+    },
+    "The Colorless": {
+      level: [
+        {
+          level: 0,
+          hit_points: "9xC",
+          movement: 3,
+          attack: 2,
+          range: 0,
+          special1: [
+            "{{resources.elements.consumeDark}}: Summon Night Demon",
+            "Invisible, Self"
+          ],
+          special2: [
+            "{{resources.elements.consumeLight}}: Summon Sun Demon",
+            "Heal 4, Self",
+            "Shield 1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Disarm"
+          ],
+          notes: ""
+        },
+        {
+          level: 1,
+          hit_points: "10xC",
+          movement: 3,
+          attack: 3,
+          range: 0,
+          special1: [
+            "{{resources.elements.consumeDark}}: Summon Night Demon",
+            "Invisible, Self"
+          ],
+          special2: [
+            "{{resources.elements.consumeLight}}: Summon Sun Demon",
+            "Heal 4, Self",
+            "Shield 1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Disarm"
+          ],
+          notes: ""
+        },
+        {
+          level: 2,
+          hit_points: "11xC",
+          movement: 4,
+          attack: 3,
+          range: 0,
+          special1: [
+            "{{resources.elements.consumeDark}}: Summon Night Demon",
+            "Invisible, Self"
+          ],
+          special2: [
+            "{{resources.elements.consumeLight}}: Summon Sun Demon",
+            "Heal 5, Self",
+            "Shield 1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Disarm"
+          ],
+          notes: ""
+        },
+        {
+          level: 3,
+          hit_points: "12xC",
+          movement: 4,
+          attack: 4,
+          range: 0,
+          special1: [
+            "{{resources.elements.consumeDark}}: Summon Night Demon",
+            "Invisible, Self"
+          ],
+          special2: [
+            "{{resources.elements.consumeLight}}: Summon Sun Demon",
+            "Heal 5, Self",
+            "Shield 1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Disarm"
+          ],
+          notes: ""
+        },
+        {
+          level: 4,
+          hit_points: "14xC",
+          movement: 4,
+          attack: 4,
+          range: 0,
+          special1: [
+            "{{resources.elements.consumeDark}}: Summon Night Demon",
+            "Invisible, Self"
+          ],
+          special2: [
+            "{{resources.elements.consumeLight}}: Summon Sun Demon",
+            "Heal 6, Self",
+            "Shield 1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Disarm"
+          ],
+          notes: ""
+        },
+        {
+          level: 5,
+          hit_points: "15xC",
+          movement: 4,
+          attack: 5,
+          range: 0,
+          special1: [
+            "{{resources.elements.consumeDark}}: Summon Night Demon",
+            "Invisible, Self"
+          ],
+          special2: [
+            "{{resources.elements.consumeLight}}: Summon Sun Demon",
+            "Heal 6, Self",
+            "Shield 1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Disarm"
+          ],
+          notes: ""
+        },
+        {
+          level: 6,
+          hit_points: "17xC",
+          movement: 4,
+          attack: 6,
+          range: 0,
+          special1: [
+            "{{resources.elements.consumeDark}}: Summon Night Demon",
+            "Invisible, Self"
+          ],
+          special2: [
+            "{{resources.elements.consumeLight}}: Summon Sun Demon",
+            "Heal 7, Self",
+            "Shield 1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Disarm"
+          ],
+          notes: ""
+        },
+        {
+          level: 7,
+          hit_points: "19xC",
+          movement: 5,
+          attack: 7,
+          range: 0,
+          special1: [
+            "{{resources.elements.consumeDark}}: Summon Night Demon",
+            "Invisible, Self"
+          ],
+          special2: [
+            "{{resources.elements.consumeLight}}: Summon Sun Demon",
+            "Heal 7, Self",
+            "Shield 1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Disarm"
+          ],
+          notes: ""
+        }
+      ]
+    },
+    "Dark Rider": {
+      level: [
+        {
+          level: 0,
+          hit_points: "9xC",
+          movement: 2,
+          attack: "3+X",
+          range: 0,
+          special1: [
+            "movement +2",
+            "Attack +0"
+          ],
+          special2: [
+            "movement +0",
+            "Summon Imp",
+            "Attack -1"
+          ],
+          immunities: [
+            "Immobilize",
+            "Poison",
+            "Stun",
+            "Disarm"
+          ],
+          notes: "X = Hexes movementd"
+        },
+        {
+          level: 1,
+          hit_points: "10xC",
+          movement: 3,
+          attack: "3+X",
+          range: 0,
+          special1: [
+            "movement +2",
+            "Attack +0"
+          ],
+          special2: [
+            "movement +0",
+            "Summon Imp",
+            "Attack -1"
+          ],
+          immunities: [
+            "Immobilize",
+            "Poison",
+            "Stun",
+            "Disarm"
+          ],
+          notes: "X = Hexes movementd"
+        },
+        {
+          level: 2,
+          hit_points: "12xC",
+          movement: 3,
+          attack: "3+X",
+          range: 0,
+          special1: [
+            "movement +2",
+            "Attack +0"
+          ],
+          special2: [
+            "movement +0",
+            "Summon Imp",
+            "Attack -1"
+          ],
+          immunities: [
+            "Immobilize",
+            "Poison",
+            "Stun",
+            "Disarm"
+          ],
+          notes: "X = Hexes movementd"
+        },
+        {
+          level: 3,
+          hit_points: "13xC",
+          movement: 3,
+          attack: "4+X",
+          range: 0,
+          special1: [
+            "movement +2",
+            "Attack +0"
+          ],
+          special2: [
+            "movement +0",
+            "Summon Imp",
+            "Attack -1"
+          ],
+          immunities: [
+            "Immobilize",
+            "Poison",
+            "Stun",
+            "Disarm"
+          ],
+          notes: "X = Hexes movementd"
+        },
+        {
+          level: 4,
+          hit_points: "15xC",
+          movement: 3,
+          attack: "4+X",
+          range: 0,
+          special1: [
+            "movement +2",
+            "Attack +0"
+          ],
+          special2: [
+            "movement +0",
+            "Summon Imp",
+            "Attack -1"
+          ],
+          immunities: [
+            "Immobilize",
+            "Poison",
+            "Stun",
+            "Disarm"
+          ],
+          notes: "X = Hexes movementd"
+        },
+        {
+          level: 5,
+          hit_points: "16xC",
+          movement: 3,
+          attack: "5+X",
+          range: 0,
+          special1: [
+            "movement +2",
+            "Attack +0"
+          ],
+          special2: [
+            "movement +0",
+            "Summon Imp",
+            "Attack -1"
+          ],
+          immunities: [
+            "Immobilize",
+            "Poison",
+            "Stun",
+            "Disarm"
+          ],
+          notes: "X = Hexes movementd"
+        },
+        {
+          level: 6,
+          hit_points: "16xC",
+          movement: 4,
+          attack: "5+X",
+          range: 0,
+          special1: [
+            "movement +2",
+            "Attack +0"
+          ],
+          special2: [
+            "movement +0",
+            "Summon Imp",
+            "Attack -1"
+          ],
+          immunities: [
+            "Immobilize",
+            "Poison",
+            "Stun",
+            "Disarm"
+          ],
+          notes: "X = Hexes movementd"
+        },
+        {
+          level: 7,
+          hit_points: "18xC",
+          movement: 4,
+          attack: "6+X",
+          range: 0,
+          special1: [
+            "movement +2",
+            "Attack +0"
+          ],
+          special2: [
+            "movement +0",
+            "Summon Imp",
+            "Attack -1"
+          ],
+          immunities: [
+            "Immobilize",
+            "Poison",
+            "Stun",
+            "Disarm"
+          ],
+          notes: "X = Hexes movementd"
+        }
+      ]
+    },
+    "Elder Drake": {
+      level: [
+        {
+          level: 0,
+          hit_points: "11xC",
+          movement: 0,
+          attack: 3,
+          range: 0,
+          special1: [
+            "Attack +0 {{resources.elderDrake.special1Area}}"
+          ],
+          special2: [
+            "movement and summon 2 Zephyrs"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 1,
+          hit_points: "12xC",
+          movement: 0,
+          attack: 4,
+          range: 0,
+          special1: [
+            "Attack +0 {{resources.elderDrake.special1Area}}"
+          ],
+          special2: [
+            "movement and summon 2 Zephyrs"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 2,
+          hit_points: "15xC",
+          movement: 0,
+          attack: 4,
+          range: 0,
+          special1: [
+            "Attack +0 {{resources.elderDrake.special1Area}}"
+          ],
+          special2: [
+            "movement and summon 2 Zephyrs"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 3,
+          hit_points: "16xC",
+          movement: 0,
+          attack: 5,
+          range: 0,
+          special1: [
+            "Attack +0 {{resources.elderDrake.special1Area}}"
+          ],
+          special2: [
+            "movement and summon 2 Zephyrs"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 4,
+          hit_points: "20xC",
+          movement: 0,
+          attack: 5,
+          range: 0,
+          special1: [
+            "Attack +0 {{resources.elderDrake.special1Area}}"
+          ],
+          special2: [
+            "movement and summon 2 Zephyrs"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 5,
+          hit_points: "22xC",
+          movement: 0,
+          attack: 6,
+          range: 0,
+          special1: [
+            "Attack +0 {{resources.elderDrake.special1Area}}"
+          ],
+          special2: [
+            "movement and summon 2 Zephyrs"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 6,
+          hit_points: "27xC",
+          movement: 0,
+          attack: 6,
+          range: 0,
+          special1: [
+            "Attack +0 {{resources.elderDrake.special1Area}}"
+          ],
+          special2: [
+            "movement and summon 2 Zephyrs"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 7,
+          hit_points: "29xC",
+          movement: 0,
+          attack: 7,
+          range: 0,
+          special1: [
+            "Attack +0 {{resources.elderDrake.special1Area}}"
+          ],
+          special2: [
+            "movement and summon 2 Zephyrs"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Stun"
+          ],
+          notes: ""
+        }
+      ]
+    },
+    "The Gloom": {
+      level: [
+        {
+          level: 0,
+          hit_points: "20xC",
+          movement: 2,
+          attack: 5,
+          range: 0,
+          special1: [
+            "movement +9",
+            "Attack +9"
+          ],
+          special2: [
+            "Teleport",
+            "Attack +1",
+            "Range 5",
+            "Poison",
+            "Wound",
+            "Stun"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 1,
+          hit_points: "25xC",
+          movement: 2,
+          attack: 5,
+          range: 0,
+          special1: [
+            "movement +9",
+            "Attack +9"
+          ],
+          special2: [
+            "Teleport",
+            "Attack +1",
+            "Range 5",
+            "Poison",
+            "Wound",
+            "Stun"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 2,
+          hit_points: "29xC",
+          movement: 2,
+          attack: 6,
+          range: 0,
+          special1: [
+            "movement +9",
+            "Attack +9"
+          ],
+          special2: [
+            "Teleport",
+            "Attack +1",
+            "Range 5",
+            "Poison",
+            "Wound",
+            "Stun"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 3,
+          hit_points: "35xC",
+          movement: 2,
+          attack: 6,
+          range: 0,
+          special1: [
+            "movement +9",
+            "Attack +9"
+          ],
+          special2: [
+            "Teleport",
+            "Attack +1",
+            "Range 5",
+            "Poison",
+            "Wound",
+            "Stun"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 4,
+          hit_points: "39xC",
+          movement: 3,
+          attack: 7,
+          range: 0,
+          special1: [
+            "movement +9",
+            "Attack +9"
+          ],
+          special2: [
+            "Teleport",
+            "Attack +1",
+            "Range 5",
+            "Poison",
+            "Wound",
+            "Stun"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 5,
+          hit_points: "46xC",
+          movement: 3,
+          attack: 7,
+          range: 0,
+          special1: [
+            "movement +9",
+            "Attack +9"
+          ],
+          special2: [
+            "Teleport",
+            "Attack +1",
+            "Range 5",
+            "Poison",
+            "Wound",
+            "Stun"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 6,
+          hit_points: "50xC",
+          movement: 3,
+          attack: 8,
+          range: 0,
+          special1: [
+            "movement +9",
+            "Attack +9"
+          ],
+          special2: [
+            "Teleport",
+            "Attack +1",
+            "Range 5",
+            "Poison",
+            "Wound",
+            "Stun"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 7,
+          hit_points: "56xC",
+          movement: 3,
+          attack: 9,
+          range: 0,
+          special1: [
+            "movement +9",
+            "Attack +9"
+          ],
+          special2: [
+            "Teleport",
+            "Attack +1",
+            "Range 5",
+            "Poison",
+            "Wound",
+            "Stun"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        }
+      ]
+    },
+    "Inox Bodyguard": {
+      level: [
+        {
+          level: 0,
+          hit_points: "6xC",
+          movement: 2,
+          attack: "C",
+          range: 0,
+          special1: [
+            "movement -1",
+            "Attack -1 {{resources.inoxBodyguard.special1Area}}"
+          ],
+          special2: [
+            "movement +0",
+            "Attack +0",
+            "Retaliate 3"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 1,
+          hit_points: "7xC",
+          movement: 2,
+          attack: "1+C",
+          range: 0,
+          special1: [
+            "movement -1",
+            "Attack -1 {{resources.inoxBodyguard.special1Area}}"
+          ],
+          special2: [
+            "movement +0",
+            "Attack +0",
+            "Retaliate 3"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 2,
+          hit_points: "9xC",
+          movement: 2,
+          attack: "1+C",
+          range: 0,
+          special1: [
+            "movement -1",
+            "Attack -1 {{resources.inoxBodyguard.special1Area}}"
+          ],
+          special2: [
+            "movement +0",
+            "Attack +0",
+            "Retaliate 3"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 3,
+          hit_points: "10xC",
+          movement: 3,
+          attack: "2+C",
+          range: 0,
+          special1: [
+            "movement -1",
+            "Attack -1 {{resources.inoxBodyguard.special1Area}}"
+          ],
+          special2: [
+            "movement +0",
+            "Attack +0",
+            "Retaliate 4"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 4,
+          hit_points: "11xC",
+          movement: 3,
+          attack: "2+C",
+          range: 0,
+          special1: [
+            "movement -1",
+            "Attack -1 {{resources.inoxBodyguard.special1Area}}"
+          ],
+          special2: [
+            "movement +0",
+            "Attack +0",
+            "Retaliate 4"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 5,
+          hit_points: "13xC",
+          movement: 3,
+          attack: "3+C",
+          range: 0,
+          special1: [
+            "movement -1",
+            "Attack -1 {{resources.inoxBodyguard.special1Area}}"
+          ],
+          special2: [
+            "movement +0",
+            "Attack +0",
+            "Retaliate 5"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 6,
+          hit_points: "15xC",
+          movement: 4,
+          attack: "3+C",
+          range: 0,
+          special1: [
+            "movement -1",
+            "Attack -1 {{resources.inoxBodyguard.special1Area}}"
+          ],
+          special2: [
+            "movement +0",
+            "Attack +0",
+            "Retaliate 5"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 7,
+          hit_points: "17xC",
+          movement: 4,
+          attack: "4+C",
+          range: 0,
+          special1: [
+            "movement -1",
+            "Attack -1 {{resources.inoxBodyguard.special1Area}}"
+          ],
+          special2: [
+            "movement +0",
+            "Attack +0",
+            "Retaliate 5"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        }
+      ]
+    },
+    Jekserah: {
+      level: [
+        {
+          level: 0,
+          hit_points: "6xC",
+          movement: 2,
+          attack: 2,
+          range: 0,
+          special1: [
+            "Summon Living Bones",
+            "Attack -1, Target all adjacent enemies"
+          ],
+          special2: [
+            "Summon Living Corpse",
+            "movement -1",
+            "Attack +2"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 1,
+          hit_points: "7xC",
+          movement: 2,
+          attack: 3,
+          range: 0,
+          special1: [
+            "Summon Living Bones",
+            "Attack -1, Target all adjacent enemies"
+          ],
+          special2: [
+            "Summon Living Corpse",
+            "movement -1",
+            "Attack +2"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 2,
+          hit_points: "9xC",
+          movement: 3,
+          attack: 3,
+          range: 0,
+          special1: [
+            "Summon Living Bones",
+            "Attack -1, Target all adjacent enemies"
+          ],
+          special2: [
+            "Summon Living Corpse",
+            "movement -1",
+            "Attack +2"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 3,
+          hit_points: "12xC",
+          movement: 4,
+          attack: 4,
+          range: 0,
+          special1: [
+            "Summon Living Bones",
+            "Attack -1, Target all adjacent enemies"
+          ],
+          special2: [
+            "Summon Living Corpse",
+            "movement -1",
+            "Attack +2"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 4,
+          hit_points: "13xC",
+          movement: 4,
+          attack: 5,
+          range: 0,
+          special1: [
+            "Summon Living Bones",
+            "Attack -1, Target all adjacent enemies"
+          ],
+          special2: [
+            "Summon Living Corpse",
+            "movement -1",
+            "Attack +2"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 5,
+          hit_points: "15xC",
+          movement: 5,
+          attack: 5,
+          range: 0,
+          special1: [
+            "Summon Living Bones",
+            "Attack -1, Target all adjacent enemies"
+          ],
+          special2: [
+            "Summon Living Corpse",
+            "movement -1",
+            "Attack +2"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 6,
+          hit_points: "18xC",
+          movement: 5,
+          attack: 5,
+          range: 0,
+          special1: [
+            "Summon Living Bones",
+            "Attack -1, Target all adjacent enemies"
+          ],
+          special2: [
+            "Summon Living Corpse",
+            "movement -1",
+            "Attack +2"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 7,
+          hit_points: "22xC",
+          movement: 5,
+          attack: 5,
+          range: 0,
+          special1: [
+            "Summon Living Bones",
+            "Attack -1, Target all adjacent enemies"
+          ],
+          special2: [
+            "Summon Living Corpse",
+            "movement -1",
+            "Attack +2"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: ""
+        }
+      ]
+    },
+    "Merciless Overseer": {
+      level: [
+        {
+          level: 0,
+          hit_points: "6xC",
+          movement: 2,
+          attack: "V",
+          range: 0,
+          special1: [
+            "All Scouts act again"
+          ],
+          special2: [
+            "Summon Vermling Scout"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: "V = Number of Scouts present"
+        },
+        {
+          level: 1,
+          hit_points: "8xC",
+          movement: 2,
+          attack: "V",
+          range: 0,
+          special1: [
+            "All Scouts act again"
+          ],
+          special2: [
+            "Summon Vermling Scout"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: "V = Number of Scouts present"
+        },
+        {
+          level: 2,
+          hit_points: "9xC",
+          movement: 3,
+          attack: "V",
+          range: 0,
+          special1: [
+            "All Scouts act again"
+          ],
+          special2: [
+            "Summon Vermling Scout"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: "V = Number of Scouts present"
+        },
+        {
+          level: 3,
+          hit_points: "11xC",
+          movement: 3,
+          attack: "V",
+          range: 0,
+          special1: [
+            "All Scouts act again"
+          ],
+          special2: [
+            "Summon Vermling Scout"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: "V = Number of Scouts present"
+        },
+        {
+          level: 4,
+          hit_points: "12xC",
+          movement: 4,
+          attack: "V",
+          range: 0,
+          special1: [
+            "All Scouts act again"
+          ],
+          special2: [
+            "Summon Vermling Scout"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: "V = Number of Scouts present"
+        },
+        {
+          level: 5,
+          hit_points: "14xC",
+          movement: 4,
+          attack: "V",
+          range: 0,
+          special1: [
+            "All Scouts act again"
+          ],
+          special2: [
+            "Summon Vermling Scout"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: "V = Number of Scouts present"
+        },
+        {
+          level: 6,
+          hit_points: "16xC",
+          movement: 4,
+          attack: "V",
+          range: 0,
+          special1: [
+            "All Scouts act again"
+          ],
+          special2: [
+            "Summon Vermling Scout"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: "V = Number of Scouts present"
+        },
+        {
+          level: 7,
+          hit_points: "19xC",
+          movement: 4,
+          attack: "V",
+          range: 0,
+          special1: [
+            "All Scouts act again"
+          ],
+          special2: [
+            "Summon Vermling Scout"
+          ],
+          immunities: [
+            "Disarm",
+            "Wound",
+            "Curse",
+            "Stun"
+          ],
+          notes: "V = Number of Scouts present"
+        }
+      ]
+    },
+    "Prime Demon": {
+      level: [
+        {
+          level: 0,
+          hit_points: "8xC",
+          movement: 3,
+          attack: 4,
+          range: 0,
+          special1: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          special2: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 1,
+          hit_points: "9xC",
+          movement: 4,
+          attack: 4,
+          range: 0,
+          special1: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          special2: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 2,
+          hit_points: "10xC",
+          movement: 4,
+          attack: 5,
+          range: 0,
+          special1: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          special2: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 3,
+          hit_points: "12xC",
+          movement: 4,
+          attack: 6,
+          range: 0,
+          special1: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          special2: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 4,
+          hit_points: "14xC",
+          movement: 5,
+          attack: 6,
+          range: 0,
+          special1: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          special2: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 5,
+          hit_points: "16xC",
+          movement: 5,
+          attack: 7,
+          range: 0,
+          special1: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          special2: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 6,
+          hit_points: "20xC",
+          movement: 5,
+          attack: 7,
+          range: 0,
+          special1: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          special2: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        },
+        {
+          level: 7,
+          hit_points: "22xC",
+          movement: 5,
+          attack: 8,
+          range: 0,
+          special1: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          special2: [
+            "Throne movements",
+            "Summon Demon",
+            "movement +2",
+            "Attack -1"
+          ],
+          immunities: [
+            "Wound",
+            "Poison",
+            "Disarm",
+            "Immobilize",
+            "Muddle",
+            "Stun"
+          ],
+          notes: ""
+        }
+      ]
+    },
+    "The Sightless Eye": {
+      level: [
+        {
+          level: 0,
+          hit_points: "7xC",
+          movement: 0,
+          attack: 5,
+          range: 3,
+          special1: [
+            "Summon Deep Terror",
+            "Attack -3 {{resources.sightlessEye.special1Area}}"
+          ],
+          special2: [
+            "Summon Deep Terror",
+            "Attack -2 {{resources.sightlessEye.special2Area}}"
+          ],
+          immunities: [
+            "Stun",
+            "Disarm",
+            "Curse",
+            "Muddle"
+          ],
+          notes: ""
+        },
+        {
+          level: 1,
+          hit_points: "8xC",
+          movement: 0,
+          attack: 6,
+          range: 3,
+          special1: [
+            "Summon Deep Terror",
+            "Attack -3 {{resources.sightlessEye.special1Area}}"
+          ],
+          special2: [
+            "Summon Deep Terror",
+            "Attack -2 {{resources.sightlessEye.special2Area}}"
+          ],
+          immunities: [
+            "Stun",
+            "Disarm",
+            "Curse",
+            "Muddle"
+          ],
+          notes: ""
+        },
+        {
+          level: 2,
+          hit_points: "10xC",
+          movement: 0,
+          attack: 6,
+          range: 3,
+          special1: [
+            "Summon Deep Terror",
+            "Attack -3 {{resources.sightlessEye.special1Area}}"
+          ],
+          special2: [
+            "Summon Deep Terror",
+            "Attack -2 {{resources.sightlessEye.special2Area}}"
+          ],
+          immunities: [
+            "Stun",
+            "Disarm",
+            "Curse",
+            "Muddle"
+          ],
+          notes: ""
+        },
+        {
+          level: 3,
+          hit_points: "11xC",
+          movement: 0,
+          attack: 7,
+          range: 3,
+          special1: [
+            "Summon Deep Terror",
+            "Attack -3 {{resources.sightlessEye.special1Area}}"
+          ],
+          special2: [
+            "Summon Deep Terror",
+            "Attack -2 {{resources.sightlessEye.special2Area}}"
+          ],
+          immunities: [
+            "Stun",
+            "Disarm",
+            "Curse",
+            "Muddle"
+          ],
+          notes: ""
+        },
+        {
+          level: 4,
+          hit_points: "14xC",
+          movement: 0,
+          attack: 7,
+          range: 3,
+          special1: [
+            "Summon Deep Terror",
+            "Attack -3 {{resources.sightlessEye.special1Area}}"
+          ],
+          special2: [
+            "Summon Deep Terror",
+            "Attack -2 {{resources.sightlessEye.special2Area}}"
+          ],
+          immunities: [
+            "Stun",
+            "Disarm",
+            "Curse",
+            "Muddle"
+          ],
+          notes: ""
+        },
+        {
+          level: 5,
+          hit_points: "15xC",
+          movement: 0,
+          attack: 8,
+          range: 3,
+          special1: [
+            "Summon Deep Terror",
+            "Attack -3 {{resources.sightlessEye.special1Area}}"
+          ],
+          special2: [
+            "Summon Deep Terror",
+            "Attack -2 {{resources.sightlessEye.special2Area}}"
+          ],
+          immunities: [
+            "Stun",
+            "Disarm",
+            "Curse",
+            "Muddle"
+          ],
+          notes: ""
+        },
+        {
+          level: 6,
+          hit_points: "18xC",
+          movement: 0,
+          attack: 8,
+          range: 3,
+          special1: [
+            "Summon Deep Terror",
+            "Attack -3 {{resources.sightlessEye.special1Area}}"
+          ],
+          special2: [
+            "Summon Deep Terror",
+            "Attack -2 {{resources.sightlessEye.special2Area}}"
+          ],
+          immunities: [
+            "Stun",
+            "Disarm",
+            "Curse",
+            "Muddle"
+          ],
+          notes: ""
+        },
+        {
+          level: 7,
+          hit_points: "20xC",
+          movement: 0,
+          attack: 9,
+          range: 3,
+          special1: [
+            "Summon Deep Terror",
+            "Attack -3 {{resources.sightlessEye.special1Area}}"
+          ],
+          special2: [
+            "Summon Deep Terror",
+            "Attack -2 {{resources.sightlessEye.special2Area}}"
+          ],
+          immunities: [
+            "Stun",
+            "Disarm",
+            "Curse",
+            "Muddle"
+          ],
+          notes: ""
+        }
+      ]
+    },
+    "Winged Horror": {
+      level: [
+        {
+          level: 0,
+          hit_points: "6xC",
+          movement: 3,
+          attack: 3,
+          range: 0,
+          special1: [
+            "Attack -1, Target all adjacent enemies",
+            "Attack +0, Range 3",
+            "Hatch eggs"
+          ],
+          special2: [
+            "Summon C eggs",
+            "movement -1",
+            "Attack +0"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 1,
+          hit_points: "7xC",
+          movement: 4,
+          attack: 3,
+          range: 0,
+          special1: [
+            "Attack -1, Target all adjacent enemies",
+            "Attack +0, Range 3",
+            "Hatch eggs"
+          ],
+          special2: [
+            "Summon C eggs",
+            "movement -1",
+            "Attack +0"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 2,
+          hit_points: "8xC",
+          movement: 4,
+          attack: 4,
+          range: 0,
+          special1: [
+            "Attack -1, Target all adjacent enemies",
+            "Attack +0, Range 3",
+            "Hatch eggs"
+          ],
+          special2: [
+            "Summon C eggs",
+            "movement -1",
+            "Attack +0"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 3,
+          hit_points: "10xC",
+          movement: 4,
+          attack: 4,
+          range: 0,
+          special1: [
+            "Attack -1, Target all adjacent enemies",
+            "Attack +0, Range 3",
+            "Hatch eggs"
+          ],
+          special2: [
+            "Summon C eggs",
+            "movement -1",
+            "Attack +0"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 4,
+          hit_points: "12xC",
+          movement: 5,
+          attack: 4,
+          range: 0,
+          special1: [
+            "Attack -1, Target all adjacent enemies",
+            "Attack +0, Range 3",
+            "Hatch eggs"
+          ],
+          special2: [
+            "Summon C eggs",
+            "movement -1",
+            "Attack +0"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 5,
+          hit_points: "14xC",
+          movement: 5,
+          attack: 5,
+          range: 0,
+          special1: [
+            "Attack -1, Target all adjacent enemies",
+            "Attack +0, Range 3",
+            "Hatch eggs"
+          ],
+          special2: [
+            "Summon C eggs",
+            "movement -1",
+            "Attack +0"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 6,
+          hit_points: "17xC",
+          movement: 5,
+          attack: 5,
+          range: 0,
+          special1: [
+            "Attack -1, Target all adjacent enemies",
+            "Attack +0, Range 3",
+            "Hatch eggs"
+          ],
+          special2: [
+            "Summon C eggs",
+            "movement -1",
+            "Attack +0"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        },
+        {
+          level: 7,
+          hit_points: "20xC",
+          movement: 5,
+          attack: 5,
+          range: 0,
+          special1: [
+            "Attack -1, Target all adjacent enemies",
+            "Attack +0, Range 3",
+            "Hatch eggs"
+          ],
+          special2: [
+            "Summon C eggs",
+            "movement -1",
+            "Attack +0"
+          ],
+          immunities: [
+            "Disarm",
+            "Poison",
+            "Muddle",
+            "Stun",
+            "Curse"
+          ],
+          notes: ""
+        }
+      ]
+    }
+  }
+}

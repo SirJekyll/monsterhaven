@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class AttackModifierCardTest < ActiveSupport::TestCase
+class ModifierCardTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

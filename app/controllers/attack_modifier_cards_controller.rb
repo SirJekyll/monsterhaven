@@ -1,2 +1,0 @@
-class AttackModifierCardsController < ApplicationController
-end

@@ -1,7 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  scenario_level: 1
+  level: 1
   elite: false
   hit_points: 1
   movement: 1
@@ -9,7 +9,7 @@ one:
   range: 1
 
 two:
-  scenario_level: 1
+  level: 1
   elite: false
   hit_points: 1
   movement: 1

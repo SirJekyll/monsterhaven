@@ -1,0 +1,69 @@
+<%= render 'monsters/edit' %>
+<%= render 'layouts/spinner' %>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-dark">
+    <li class="breadcrumb-item"><a href="/">Scenarios</a></li>
+    <li class="breadcrumb-item"><a href="<%= scenario_path(@scenario) %>"><%= @scenario.name %></a></li>
+    <li class="breadcrumb-item active" aria-current="page"><%= @monster.name %></li>
+  </ol>
+</nav>
+<div class="card mt-3 bg-dark text-light" style="margin-bottom: 4rem;">
+  <div class="card-body">
+    <div class="card-title">
+      <h1>
+        <%= @monster.name %>
+      </h1>
+    </div>
+    <p class="card-subtitle text-muted lead">
+      Level: <%= @monster.level %>
+    </p>
+    <p class="card-subtitle text-muted lead">
+      Initiative: <%= @monster.active_ability.initiative %>
+    </p>
+    <a class="card-link" href="#" data-toggle="modal" data-target="#edit-monster-modal">Edit</a>
+  </div>
+  <div class="card-text m-2">
+    <table class="table table-dark">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th class="text-white" scope="col">Normal</th>
+          <th class="text-warning" scope="col">Elite</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Attack</th>
+          <td class="text-white"><%= @monster.normal_stats.attack %></td>
+          <td class="text-warning"><%= @monster.elite_stats.attack %></td>
+        </tr>
+        <tr>
+          <th scope="row">HP</th>
+          <td class="text-white"><%= @monster.normal_stats.hit_points %></td>
+          <td class="text-warning"><%= @monster.elite_stats.hit_points %></td>
+        </tr>
+        <tr>
+          <th scope="row">Move</th>
+          <td class="text-white"><%= @monster.normal_stats.movement %></td>
+          <td class="text-warning"><%= @monster.elite_stats.movement %></td>
+        </tr>
+        <tr>
+          <th scope="row">Range</th>
+          <td class="text-white"><%= @monster.normal_stats.range %></td>
+          <td class="text-warning"><%= @monster.elite_stats.range %></td>
+        </tr>
+        <tr>
+          <th scope="row">Special</th>
+          <td class="text-white"><%= @monster.normal_stats.special_traits.join ',' %></td>
+          <td class="text-warning"><%= @monster.elite_stats.special_traits.join ',' %></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="container fixed-bottom py-2 bg-secondary">
+  <%= button_to [@scenario, @monster, :attack], class: "btn btn-primary btn-block", data: { toggle: 'modal', target: '#spinner-modal' } do %>
+    Attack
+  <% end %>
+</div>

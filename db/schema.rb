@@ -10,17 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_19_051302) do
+ActiveRecord::Schema.define(version: 2020_02_23_011630) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "ability_cards", force: :cascade do |t|
-    t.string "name", null: false
-    t.integer "initiative", null: false
     t.boolean "shuffle"
+    t.integer "initiative", null: false
+    t.text "abilities", default: [], array: true
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "attack_modifier_cards", force: :cascade do |t|
+  create_table "ability_cards_monsters", id: false, force: :cascade do |t|
+    t.bigint "ability_card_id"
+    t.bigint "monster_id"
+    t.index ["ability_card_id"], name: "index_ability_cards_monsters_on_ability_card_id"
+    t.index ["monster_id"], name: "index_ability_cards_monsters_on_monster_id"
+  end
+
+  create_table "modifier_cards", force: :cascade do |t|
     t.integer "operation", null: false
     t.integer "value"
     t.boolean "shuffle"
@@ -29,36 +39,51 @@ ActiveRecord::Schema.define(version: 2020_02_19_051302) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "modifier_cards_scenarios", id: false, force: :cascade do |t|
+    t.bigint "modifier_card_id"
+    t.bigint "scenario_id"
+    t.index ["modifier_card_id"], name: "index_modifier_cards_scenarios_on_modifier_card_id"
+    t.index ["scenario_id"], name: "index_modifier_cards_scenarios_on_scenario_id"
+  end
+
   create_table "monsters", force: :cascade do |t|
+    t.integer "ability_deck", default: [], array: true
+    t.integer "active_ability_id"
+    t.integer "level", null: false
     t.string "name", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "monsters_scenarios", id: false, force: :cascade do |t|
+    t.bigint "monster_id"
+    t.bigint "scenario_id"
+    t.index ["monster_id"], name: "index_monsters_scenarios_on_monster_id"
+    t.index ["scenario_id"], name: "index_monsters_scenarios_on_scenario_id"
+  end
+
   create_table "scenarios", force: :cascade do |t|
+    t.integer "active_modifier_id"
     t.integer "level", null: false
-    t.string "reference_number"
+    t.integer "modifier_deck", default: [], array: true
     t.string "name"
+    t.string "reference_number"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "special_traits", force: :cascade do |t|
-    t.string "trait", null: false
-    t.integer "value"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "statistic_cards", force: :cascade do |t|
-    t.integer "scenario_level", null: false
+  create_table "stat_cards", force: :cascade do |t|
+    t.bigint "monster_id"
     t.boolean "elite", null: false
-    t.integer "hit_points", null: false
-    t.integer "movement"
     t.integer "attack", null: false
+    t.integer "hit_points", null: false
+    t.integer "level", null: false
+    t.integer "movement"
     t.integer "range"
+    t.text "special_traits", default: [], array: true
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["monster_id"], name: "index_stat_cards_on_monster_id"
   end
 
 end
