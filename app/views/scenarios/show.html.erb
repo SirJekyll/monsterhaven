@@ -1,4 +1,3 @@
-<%= render 'scenarios/edit' %>
 <%= render 'layouts/spinner' %>
 
 <nav aria-label="breadcrumb">
@@ -18,7 +17,7 @@
     <p class="card-subtitle text-muted lead">
       Scenario Level: <%= @scenario.level %>
     </p>
-    <a class="card-link" href="#" data-toggle="modal" data-target="#edit-scenario-modal">Edit</a>
+    <a class="card-link" href="<%= edit_scenario_path(@scenario)%>">Edit</a>
   </div>
 </div>
 <div class="list-group" style="margin-bottom: 6.5rem;">

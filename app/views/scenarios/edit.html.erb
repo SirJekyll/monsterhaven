@@ -1,0 +1,55 @@
+<div class="modal fade" id="edit-scenario-modal" tabindex="-1" role="dialog" aria-labelledby="editScenarioModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">
+          <%= @scenario.reference_number ? "##{@scenario.reference_number} " : "" %>
+          <%= @scenario.name %>
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-dark">
+    <li class="breadcrumb-item"><a href="/">Scenarios</a></li>
+    <li class="breadcrumb-item active"><a href="<%= scenario_path(@scenario)%>"><%= @scenario.name %></a></li>
+    <li class="breadcrumb-item active" aria-current="page">Edit</li>
+  </ol>
+</nav>
+<div class="card my-3 bg-dark text-light">
+  <div class="card-body">
+    <div class="card-title">
+      <h1>
+        <%= @scenario.reference_number ? "##{@scenario.reference_number} " : "" %>
+        <%= @scenario.name %>
+      </h1>
+    </div>
+  </div>
+</div>
+<div class="container bg-dark text-light">
+  <%= form_for @scenario do %>
+    <div class="form-group">
+      <label for="inputLevel" class="col-form-label">Scenario Level</label>
+      <div class="">
+        <input type="number" min="0" max="7" class="form-control" name="level" id="inputLevel" value="<%= @scenario.level %>" required></input>
+      </div>
+    </div>
+    <div class="form-group">
+      <h4>Monsters</h4>
+      <% @monsters.each do |monster| %>
+        <div class="form-check">
+          <input id="<%= monster[:slug] %>" class="form-check-input" type="checkbox" name="monster_ids[]" value="<%= monster[:id] %>" <%= 'checked' if monster[:checked] %>>
+          <label class="form-check-label" for="<%= monster[:slug] %>">
+            <%= monster[:name] %>
+          </label>
+        </div>
+      <% end %>
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+  <% end %>
+</div>

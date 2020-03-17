@@ -1,5 +1,5 @@
 class ScenariosController < ApplicationController
-  before_action :find_scenario, only: [:show, :update, :bless, :curse, :new_round]
+  before_action :find_scenario, only: [:show, :edit, :update, :bless, :curse, :new_round]
 
   def show
     @monsters = @scenario.monsters.sort_by do |monster|
@@ -8,7 +8,18 @@ class ScenariosController < ApplicationController
   end
 
   def index
-    @scenarios = Scenario.all
+    @scenarios = Scenario.order('reference_number NULLS FIRST')
+  end
+
+  def edit
+    @monsters = Monster.order(:name).pluck(:id, :name).map do |monster|
+      {
+        id: monster.first,
+        name: monster.last,
+        slug: monster.last.parameterize,
+        checked: @scenario.monster_ids.include?(monster.first)
+      }
+    end
   end
 
   def update
@@ -39,6 +50,7 @@ class ScenariosController < ApplicationController
   end
 
   def scenario_params
-    params.permit(:level)
+    params[:monster_ids] = params[:monster_ids]&.map(&:to_i) || []
+    params.permit(:level, monster_ids: [])
   end
 end

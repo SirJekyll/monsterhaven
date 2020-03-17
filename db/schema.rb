@@ -67,7 +67,7 @@ ActiveRecord::Schema.define(version: 2020_02_23_011630) do
     t.integer "level", null: false
     t.integer "modifier_deck", default: [], array: true
     t.string "name"
-    t.string "reference_number"
+    t.integer "reference_number"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

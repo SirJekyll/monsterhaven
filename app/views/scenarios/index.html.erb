@@ -8,12 +8,9 @@
   </div>
 </div>
 <div class="list-group">
-  <!-- <a href="#" class="list-group-item list-group-item-primary list-group-item-action">
-    Create custom scenario
-  </a> -->
   <% @scenarios.each do |scenario| %>
     <a href="<%= scenario_path(scenario) %>" class="list-group-item list-group-item-action bg-dark text-light">
-      <%= "##{scenario.reference_number} #{scenario.name}" %>
+      <%= "#{"##{scenario.reference_number} " if scenario.reference_number}#{scenario.name}" %>
     </a>
   <% end %>
 </div>

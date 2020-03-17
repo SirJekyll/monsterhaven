@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   resources :scenarios, only: [:show, :index, :update] do
     member do
+      get 'edit'
+
       post 'new_round'
       post 'bless'
       post 'curse'

@@ -4,12 +4,12 @@
 `ruby '2.6.5'`
 
 ## TODO
-* Continue to seed database
-* Add immunities to stat_card
-* Add player count, HP for boss monsters
-* Modify values by user
+* Refactor attacks to handle multiple modifier draw on the same card.
+* Add bosses (as new model).
+* Add model for party. This should take over handling level and player count.
 * Better UI/UX
-* Better system for Bless/Curse
+* Better system for Bless/Curse.
+* Add persistent round effects from ability cards (shield, retaliate).
 
 ## Dependencies
 ## Configuration

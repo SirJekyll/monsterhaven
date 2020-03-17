@@ -5,7 +5,7 @@ class CreateScenarios < ActiveRecord::Migration[6.0]
       t.integer :level, null: false
       t.integer :modifier_deck, array: true, default: []
       t.string :name
-      t.string :reference_number
+      t.integer :reference_number
 
       t.timestamps
     end
