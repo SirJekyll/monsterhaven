@@ -1,30 +1,34 @@
 module MonstersHelper
-  def process_attack(modifier)
+  def take_turn(scenario)
     @attack = active_ability.abilities.map do |ability|
-      {
-        normal: process_ability(ability, modifier),
-        elite: process_ability(ability, modifier, elite: true)
-      }
+      process_ability(ability, scenario)
     end
   end
 
-  def process_ability(ability, modifier, elite: false)
-    stats = elite ? elite_stats : normal_stats
-
+  def process_ability(ability, scenario)
     if match = ability.match(/Attack ([-|\+]\d)/)
-      value = match[1].to_i + stats.attack
-      value = with_modifier(value, modifier)
-      "Attack #{value}"
+      modifier = scenario.draw_modifier
+      normal = match[1].to_i + normal_stats.attack
+      elite = match[1].to_i + elite_stats.attack
+      {
+        normal: "Attack #{with_modifier(normal, modifier)}",
+        elite: "Attack #{with_modifier(elite, modifier)}",
+      }
     elsif match = ability.match(/Move ([-|\+]\d)/)
-      value = match[1].to_i
-      value += stats.movement
-      "Move #{value}"
+      {
+        normal: "Move #{match[1].to_i + normal_stats.movement}",
+        elite: "Move #{match[1].to_i + elite_stats.movement}"
+      }
     elsif match = ability.match(/Range ([-|\+]\d)/)
-      value = match[1].to_i
-      value += stats.range
-      "Range #{value}"
+      {
+        normal: "Range #{match[1].to_i + normal_stats.range}",
+        elite: "Range #{match[1].to_i + elite_stats.range}"
+      }
     else
-      ability
+      {
+        normal: ability,
+        elite: ability
+      }
     end
   end
 

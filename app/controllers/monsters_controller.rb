@@ -13,11 +13,7 @@ class MonstersController < ApplicationController
   def attack
     @monster = Monster.find(params[:monster_id])
     @scenario = Scenario.find(params[:scenario_id])
-    modifier = @scenario.draw_modifier
-    if modifier.remove?
-      flash.now[:notice] = "#{modifier.blessed? ? 'BLESS' : 'CURSE'} applied"
-    end
-    @attack = @monster.process_attack(modifier)
+    @attack = @monster.take_turn(@scenario)
     render 'monsters/attack'
   end
 
