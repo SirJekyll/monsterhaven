@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_23_011630) do
+ActiveRecord::Schema.define(version: 2020_03_29_045022) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -60,6 +60,12 @@ ActiveRecord::Schema.define(version: 2020_02_23_011630) do
     t.bigint "scenario_id"
     t.index ["monster_id"], name: "index_monsters_scenarios_on_monster_id"
     t.index ["scenario_id"], name: "index_monsters_scenarios_on_scenario_id"
+  end
+
+  create_table "parties", force: :cascade do |t|
+    t.string "name", null: false
+    t.integer "player_count", null: false
+    t.integer "scenario_level", default: 0, null: false
   end
 
   create_table "scenarios", force: :cascade do |t|

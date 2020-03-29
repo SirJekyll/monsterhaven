@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'scenarios#index'
 
+  resources :parties
   resources :scenarios, only: [:show, :index, :update] do
     member do
       get 'edit'
